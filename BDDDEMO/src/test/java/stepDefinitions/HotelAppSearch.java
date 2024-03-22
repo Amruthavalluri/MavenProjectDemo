@@ -21,6 +21,7 @@ public class HotelAppSearch {
 	@Given("I am on Hotel App Login Page")
 	public void i_am_on_hotel_app_login_page() {
 	    // Write code here that turns the phrase above into concrete actions
+		driver.findElement(By.id("Username");
 	     driver = new ChromeDriver();
 	     driver.get("https://adactinhotelapp.com/");
 	   // throw new io.cucumber.java.PendingException();
