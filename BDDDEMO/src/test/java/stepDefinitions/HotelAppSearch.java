@@ -25,6 +25,7 @@ public class HotelAppSearch {
 	     driver = new ChromeDriver();
 	     driver.get("https://adactinhotelapp.com/");
 	   // throw new io.cucumber.java.PendingException();
+		System.out.println("hello");
 	}
 
 	@When("I enter username as {string}")
