@@ -15,6 +15,7 @@ public class HotelAppSearch {
 	
 	@After 
 	public void t2() {
+		System.out.println("hello");
 		driver.quit();
 	}
 	
@@ -56,5 +57,4 @@ public class HotelAppSearch {
 	   // throw new io.cucumber.java.PendingException();
 	}
 
-System.out.println("Hello");
 }
